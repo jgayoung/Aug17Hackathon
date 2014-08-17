@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #000;
+    background-color: #000000;
 }
 
 html {
@@ -115,7 +115,6 @@ section.carousel {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    background-position: center;
 }
 
 section.carousel .item,
@@ -123,7 +122,6 @@ section.carousel .item.active,
 section.carousel .carousel-inner {
     height: 100%;
     width: 100%;
-
 }
 
 section.carousel .fill {
@@ -133,16 +131,8 @@ section.carousel .fill {
     background-size: contain;
     margin-right: auto;
     margin-left: auto;
+    background-repeat: no-repeat;
 }
-
-section.carousel .left-carousel-control. {
-    height: 80%;
-}
-
-section.carousel .right-carousel-control. {
-    height: 80%;
-}
-
 
 @media(min-width:767px) {
     .navbar {
@@ -172,7 +162,7 @@ section.carousel .right-carousel-control. {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg1.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
