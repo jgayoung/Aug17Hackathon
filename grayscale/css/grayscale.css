@@ -111,21 +111,38 @@ a:focus {
 }
 
 section.carousel {
-    height: 80%;
+    height: 100%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: center;
 }
 
 section.carousel .item,
 section.carousel .item.active,
 section.carousel .carousel-inner {
     height: 100%;
+    width: 100%;
+
 }
 
 section.carousel .fill {
-    width: 80%;
-    height: 100%;
+    width: 60%;
+    height: 80%;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+section.carousel .left-carousel-control. {
+    height: 80%;
+}
+
+section.carousel .right-carousel-control. {
+    height: 80%;
+}
+
 
 @media(min-width:767px) {
     .navbar {
