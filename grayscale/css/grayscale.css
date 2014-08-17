@@ -111,7 +111,7 @@ a:focus {
 }
 
 section.carousel {
-    height: 50%;
+    height: 80%;
 }
 
 section.carousel .item,
@@ -121,7 +121,7 @@ section.carousel .carousel-inner {
 }
 
 section.carousel .fill {
-    width: 100%;
+    width: 80%;
     height: 100%;
     background-position: center;
     background-size: cover;
