@@ -155,6 +155,10 @@ a:focus {
     font-size: 40px;
 }
 
+.intro .intro-body .second-brand-heading {
+    font-size: 30px;
+}
+
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
